@@ -1,25 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9970" started-at="2019-06-16T20:13:26Z" finished-at="2019-06-16T20:13:36Z">
+  <suite name="TestSuiteDemo" duration-ms="60558" started-at="2019-06-16T21:35:20Z" finished-at="2019-06-16T21:36:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9970" started-at="2019-06-16T20:13:26Z" finished-at="2019-06-16T20:13:36Z">
-      <class name="automation_test.TC11_Verify_Next_Button_Behavior">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:automation_test.TC11_Verify_Next_Button_Behavior@548e7350]" name="launchBrowser" is-config="true" duration-ms="9496" started-at="2019-06-16T20:13:26Z" finished-at="2019-06-16T20:13:35Z">
+    <test name="Test1" duration-ms="60558" started-at="2019-06-16T21:35:20Z" finished-at="2019-06-16T21:36:20Z">
+      <class name="com.P1.TC01_Add_Computer_Test">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.P1.TC01_Add_Computer_Test@239963d8]" name="launchBrowser" is-config="true" duration-ms="5534" started-at="2019-06-16T21:35:20Z" finished-at="2019-06-16T21:35:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="verifyPreviousEnabled()[pri:0, instance:automation_test.TC11_Verify_Next_Button_Behavior@548e7350]" name="verifyPreviousEnabled" duration-ms="328" started-at="2019-06-16T20:13:35Z" finished-at="2019-06-16T20:13:35Z">
+        <test-method status="PASS" signature="addComputer()[pri:0, instance:com.P1.TC01_Add_Computer_Test@239963d8]" name="addComputer" duration-ms="1112" started-at="2019-06-16T21:35:25Z" finished-at="2019-06-16T21:35:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPreviousEnabled -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:automation_test.TC11_Verify_Next_Button_Behavior@548e7350]" name="afterTest" is-config="true" duration-ms="109" started-at="2019-06-16T20:13:35Z" finished-at="2019-06-16T20:13:36Z">
+        </test-method> <!-- addComputer -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.P1.TC01_Add_Computer_Test@239963d8]" name="afterTest" is-config="true" duration-ms="163" started-at="2019-06-16T21:35:27Z" finished-at="2019-06-16T21:35:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- automation_test.TC11_Verify_Next_Button_Behavior -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.P1.TC01_Add_Computer_Test -->
+      <class name="com.P1.TC08_Verify_Previous_Button_Disabled_LaunchPage_test">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.P1.TC08_Verify_Previous_Button_Disabled_LaunchPage_test@5f341870]" name="launchBrowser" is-config="true" duration-ms="4447" started-at="2019-06-16T21:36:00Z" finished-at="2019-06-16T21:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyPreviousDisabled()[pri:0, instance:com.P1.TC08_Verify_Previous_Button_Disabled_LaunchPage_test@5f341870]" name="verifyPreviousDisabled" duration-ms="32" started-at="2019-06-16T21:36:05Z" finished-at="2019-06-16T21:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPreviousDisabled -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.P1.TC08_Verify_Previous_Button_Disabled_LaunchPage_test@5f341870]" name="afterTest" is-config="true" duration-ms="82" started-at="2019-06-16T21:36:05Z" finished-at="2019-06-16T21:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.P1.TC08_Verify_Previous_Button_Disabled_LaunchPage_test -->
+      <class name="com.P1.TC07_Total_Header_Count_Validation_Test">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.P1.TC07_Total_Header_Count_Validation_Test@14bf9759]" name="launchBrowser" is-config="true" duration-ms="4680" started-at="2019-06-16T21:35:55Z" finished-at="2019-06-16T21:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="countValidation()[pri:0, instance:com.P1.TC07_Total_Header_Count_Validation_Test@14bf9759]" name="countValidation" duration-ms="103" started-at="2019-06-16T21:36:00Z" finished-at="2019-06-16T21:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countValidation -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.P1.TC07_Total_Header_Count_Validation_Test@14bf9759]" name="afterTest" is-config="true" duration-ms="216" started-at="2019-06-16T21:36:00Z" finished-at="2019-06-16T21:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.P1.TC07_Total_Header_Count_Validation_Test -->
+      <class name="com.P1.TC09_Verify_Previous_Button_Enabled_NextPage_test">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.P1.TC09_Verify_Previous_Button_Enabled_NextPage_test@553f17c]" name="launchBrowser" is-config="true" duration-ms="4624" started-at="2019-06-16T21:36:05Z" finished-at="2019-06-16T21:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyPreviousEnabled()[pri:0, instance:com.P1.TC09_Verify_Previous_Button_Enabled_NextPage_test@553f17c]" name="verifyPreviousEnabled" duration-ms="348" started-at="2019-06-16T21:36:10Z" finished-at="2019-06-16T21:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPreviousEnabled -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.P1.TC09_Verify_Previous_Button_Enabled_NextPage_test@553f17c]" name="afterTest" is-config="true" duration-ms="150" started-at="2019-06-16T21:36:10Z" finished-at="2019-06-16T21:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.P1.TC09_Verify_Previous_Button_Enabled_NextPage_test -->
+      <class name="com.P1.TC05_Delete_Computer_Test">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.P1.TC05_Delete_Computer_Test@598067a5]" name="launchBrowser" is-config="true" duration-ms="4657" started-at="2019-06-16T21:35:45Z" finished-at="2019-06-16T21:35:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="deleteComputer()[pri:0, instance:com.P1.TC05_Delete_Computer_Test@598067a5]" name="deleteComputer" duration-ms="766" started-at="2019-06-16T21:35:49Z" finished-at="2019-06-16T21:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComputer -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.P1.TC05_Delete_Computer_Test@598067a5]" name="afterTest" is-config="true" duration-ms="87" started-at="2019-06-16T21:35:50Z" finished-at="2019-06-16T21:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.P1.TC05_Delete_Computer_Test -->
+      <class name="com.P1.TC03_Update_Information_Test">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.P1.TC03_Update_Information_Test@57fffcd7]" name="launchBrowser" is-config="true" duration-ms="4496" started-at="2019-06-16T21:35:32Z" finished-at="2019-06-16T21:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="updateComputer()[pri:0, instance:com.P1.TC03_Update_Information_Test@57fffcd7]" name="updateComputer" duration-ms="964" started-at="2019-06-16T21:35:36Z" finished-at="2019-06-16T21:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateComputer -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.P1.TC03_Update_Information_Test@57fffcd7]" name="afterTest" is-config="true" duration-ms="2072" started-at="2019-06-16T21:35:37Z" finished-at="2019-06-16T21:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.P1.TC03_Update_Information_Test -->
+      <class name="com.P1.TC02_Read_Computer_Test">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.P1.TC02_Read_Computer_Test@3abbfa04]" name="launchBrowser" is-config="true" duration-ms="4667" started-at="2019-06-16T21:35:27Z" finished-at="2019-06-16T21:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="readComputer()[pri:0, instance:com.P1.TC02_Read_Computer_Test@3abbfa04]" name="readComputer" duration-ms="322" started-at="2019-06-16T21:35:31Z" finished-at="2019-06-16T21:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readComputer -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.P1.TC02_Read_Computer_Test@3abbfa04]" name="afterTest" is-config="true" duration-ms="136" started-at="2019-06-16T21:35:32Z" finished-at="2019-06-16T21:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.P1.TC02_Read_Computer_Test -->
+      <class name="com.P1.TC11_Verify_Next_Button_Behavior">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.P1.TC11_Verify_Next_Button_Behavior@271053e1]" name="launchBrowser" is-config="true" duration-ms="4835" started-at="2019-06-16T21:36:15Z" finished-at="2019-06-16T21:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyNextButton()[pri:0, instance:com.P1.TC11_Verify_Next_Button_Behavior@271053e1]" name="verifyNextButton" duration-ms="299" started-at="2019-06-16T21:36:20Z" finished-at="2019-06-16T21:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNextButton -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.P1.TC11_Verify_Next_Button_Behavior@271053e1]" name="afterTest" is-config="true" duration-ms="252" started-at="2019-06-16T21:36:20Z" finished-at="2019-06-16T21:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.P1.TC11_Verify_Next_Button_Behavior -->
+      <class name="com.P1.TC06_Search_Non_Existing_Computer_Test">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.P1.TC06_Search_Non_Existing_Computer_Test@3c0ecd4b]" name="launchBrowser" is-config="true" duration-ms="4530" started-at="2019-06-16T21:35:50Z" finished-at="2019-06-16T21:35:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="searchNonExistComputer()[pri:0, instance:com.P1.TC06_Search_Non_Existing_Computer_Test@3c0ecd4b]" name="searchNonExistComputer" duration-ms="531" started-at="2019-06-16T21:35:55Z" finished-at="2019-06-16T21:35:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNonExistComputer -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.P1.TC06_Search_Non_Existing_Computer_Test@3c0ecd4b]" name="afterTest" is-config="true" duration-ms="122" started-at="2019-06-16T21:35:55Z" finished-at="2019-06-16T21:35:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.P1.TC06_Search_Non_Existing_Computer_Test -->
+      <class name="com.P1.TC04_Search_Existing_Computer_Test">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.P1.TC04_Search_Existing_Computer_Test@31ef45e3]" name="launchBrowser" is-config="true" duration-ms="4663" started-at="2019-06-16T21:35:39Z" finished-at="2019-06-16T21:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="searchComputer()[pri:0, instance:com.P1.TC04_Search_Existing_Computer_Test@31ef45e3]" name="searchComputer" duration-ms="452" started-at="2019-06-16T21:35:44Z" finished-at="2019-06-16T21:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchComputer -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.P1.TC04_Search_Existing_Computer_Test@31ef45e3]" name="afterTest" is-config="true" duration-ms="188" started-at="2019-06-16T21:35:45Z" finished-at="2019-06-16T21:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.P1.TC04_Search_Existing_Computer_Test -->
+      <class name="com.P1.TC10_Cancel_Add_Computer_Validation">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.P1.TC10_Cancel_Add_Computer_Validation@4f7d0008]" name="launchBrowser" is-config="true" duration-ms="3532" started-at="2019-06-16T21:36:10Z" finished-at="2019-06-16T21:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="cancelAddComputer()[pri:0, instance:com.P1.TC10_Cancel_Add_Computer_Validation@4f7d0008]" name="cancelAddComputer" duration-ms="1231" started-at="2019-06-16T21:36:14Z" finished-at="2019-06-16T21:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelAddComputer -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.P1.TC10_Cancel_Add_Computer_Validation@4f7d0008]" name="afterTest" is-config="true" duration-ms="195" started-at="2019-06-16T21:36:15Z" finished-at="2019-06-16T21:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.P1.TC10_Cancel_Add_Computer_Validation -->
+    </test> <!-- Test1 -->
+  </suite> <!-- TestSuiteDemo -->
 </testng-results>

@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 16 23:35:20 CEST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>60 seconds (60558 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.P1.TC01_Add_Computer_Test.addComputer()'><b>addComputer</b><br>Test class: com.P1.TC01_Add_Computer_Test</td>
+<td></td>
+<td>1</td>
+<td>com.P1.TC01_Add_Computer_Test@239963d8</td></tr>
+<tr>
+<td title='com.P1.TC10_Cancel_Add_Computer_Validation.cancelAddComputer()'><b>cancelAddComputer</b><br>Test class: com.P1.TC10_Cancel_Add_Computer_Validation</td>
+<td></td>
+<td>1</td>
+<td>com.P1.TC10_Cancel_Add_Computer_Validation@4f7d0008</td></tr>
+<tr>
+<td title='com.P1.TC07_Total_Header_Count_Validation_Test.countValidation()'><b>countValidation</b><br>Test class: com.P1.TC07_Total_Header_Count_Validation_Test</td>
+<td></td>
+<td>0</td>
+<td>com.P1.TC07_Total_Header_Count_Validation_Test@14bf9759</td></tr>
+<tr>
+<td title='com.P1.TC05_Delete_Computer_Test.deleteComputer()'><b>deleteComputer</b><br>Test class: com.P1.TC05_Delete_Computer_Test</td>
+<td></td>
+<td>0</td>
+<td>com.P1.TC05_Delete_Computer_Test@598067a5</td></tr>
+<tr>
+<td title='com.P1.TC02_Read_Computer_Test.readComputer()'><b>readComputer</b><br>Test class: com.P1.TC02_Read_Computer_Test</td>
+<td></td>
+<td>0</td>
+<td>com.P1.TC02_Read_Computer_Test@3abbfa04</td></tr>
+<tr>
+<td title='com.P1.TC04_Search_Existing_Computer_Test.searchComputer()'><b>searchComputer</b><br>Test class: com.P1.TC04_Search_Existing_Computer_Test</td>
+<td></td>
+<td>0</td>
+<td>com.P1.TC04_Search_Existing_Computer_Test@31ef45e3</td></tr>
+<tr>
+<td title='com.P1.TC06_Search_Non_Existing_Computer_Test.searchNonExistComputer()'><b>searchNonExistComputer</b><br>Test class: com.P1.TC06_Search_Non_Existing_Computer_Test</td>
+<td></td>
+<td>0</td>
+<td>com.P1.TC06_Search_Non_Existing_Computer_Test@3c0ecd4b</td></tr>
+<tr>
+<td title='com.P1.TC03_Update_Information_Test.updateComputer()'><b>updateComputer</b><br>Test class: com.P1.TC03_Update_Information_Test</td>
+<td></td>
+<td>0</td>
+<td>com.P1.TC03_Update_Information_Test@57fffcd7</td></tr>
+<tr>
+<td title='com.P1.TC11_Verify_Next_Button_Behavior.verifyNextButton()'><b>verifyNextButton</b><br>Test class: com.P1.TC11_Verify_Next_Button_Behavior</td>
+<td></td>
+<td>0</td>
+<td>com.P1.TC11_Verify_Next_Button_Behavior@271053e1</td></tr>
+<tr>
+<td title='com.P1.TC08_Verify_Previous_Button_Disabled_LaunchPage_test.verifyPreviousDisabled()'><b>verifyPreviousDisabled</b><br>Test class: com.P1.TC08_Verify_Previous_Button_Disabled_LaunchPage_test</td>
+<td></td>
+<td>0</td>
+<td>com.P1.TC08_Verify_Previous_Button_Disabled_LaunchPage_test@5f341870</td></tr>
+<tr>
+<td title='com.P1.TC09_Verify_Previous_Button_Enabled_NextPage_test.verifyPreviousEnabled()'><b>verifyPreviousEnabled</b><br>Test class: com.P1.TC09_Verify_Previous_Button_Enabled_NextPage_test</td>
+<td></td>
+<td>0</td>
+<td>com.P1.TC09_Verify_Previous_Button_Enabled_NextPage_test@553f17c</td></tr>
+</table><p>
+</body>
+</html>
