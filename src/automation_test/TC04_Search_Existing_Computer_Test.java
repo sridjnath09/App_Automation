@@ -5,7 +5,6 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -29,7 +28,7 @@ public class TC04_Search_Existing_Computer_Test {
 	}
 
 	@Test
-	public void updateComputer() {
+	public void searchComputer() {
 		driver.findElement(By.id("searchbox")).clear();
 		driver.findElement(By.id("searchbox")).sendKeys(computerName);
 		driver.findElement(By.id("searchsubmit")).click();

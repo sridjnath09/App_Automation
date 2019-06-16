@@ -1,8 +1,6 @@
 package automation_test;
 
 import org.testng.annotations.Test;
-
-
 import org.testng.annotations.BeforeTest;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -12,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
-import org.testng.asserts.*;
 
 public class TC01_Add_Computer_Test {
 
@@ -24,7 +21,7 @@ public class TC01_Add_Computer_Test {
 	@BeforeTest
 	public void launchBrowser() {
 		System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());
-	    driver= new ChromeDriver();
+		driver= new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		String baseUrl="http://computer-database.herokuapp.com/computers";
 		driver.get(baseUrl);
@@ -44,7 +41,7 @@ public class TC01_Add_Computer_Test {
 		String confirmCreation= driver.findElement(By.xpath("//*[@id=\"main\"]/div[1]")).getText();
 		Assert.assertEquals(confirmCreation.equals("Done! Computer "+computerName +" has been created"),true);
 	}
-	
+
 
 	@AfterTest
 	public void afterTest() {

@@ -2,7 +2,6 @@ package automation_test;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -28,7 +27,7 @@ public class TC06_Search_Non_Existing_Computer_Test {
 	}
 
 	@Test
-	public void updateComputer() {
+	public void searchNonExistComputer() {
 		driver.findElement(By.id("searchbox")).clear();
 		driver.findElement(By.id("searchbox")).sendKeys(computerName);
 		driver.findElement(By.id("searchsubmit")).click();

@@ -1,18 +1,14 @@
 package automation_test;
 
 import org.testng.annotations.Test;
-
-
 import org.testng.annotations.BeforeTest;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
-import org.testng.asserts.*;
 
 public class TC05_Delete_Computer_Test {
 
@@ -32,7 +28,7 @@ public class TC05_Delete_Computer_Test {
 	}
 
 	@Test
-	public void addComputer() {
+	public void deleteComputer() {
 		driver.findElement(By.xpath("//*[@id=\"main\"]/table/tbody/tr[1]/td[1]/a")).click();
 		driver.findElement(By.xpath("//*[@id=\"main\"]/form[2]/input")).click();
 		
