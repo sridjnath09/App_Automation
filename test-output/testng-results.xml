@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10092" started-at="2019-06-16T19:22:09Z" finished-at="2019-06-16T19:22:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10092" started-at="2019-06-16T19:22:09Z" finished-at="2019-06-16T19:22:19Z">
+      <class name="automation_test.TC10_Cancel_Add_Computer_Validation">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:automation_test.TC10_Cancel_Add_Computer_Validation@548e7350]" name="launchBrowser" is-config="true" duration-ms="8691" started-at="2019-06-16T19:22:09Z" finished-at="2019-06-16T19:22:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="cancelAddComputer()[pri:0, instance:automation_test.TC10_Cancel_Add_Computer_Validation@548e7350]" name="cancelAddComputer" duration-ms="1219" started-at="2019-06-16T19:22:18Z" finished-at="2019-06-16T19:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelAddComputer -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:automation_test.TC10_Cancel_Add_Computer_Validation@548e7350]" name="afterTest" is-config="true" duration-ms="152" started-at="2019-06-16T19:22:19Z" finished-at="2019-06-16T19:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- automation_test.TC10_Cancel_Add_Computer_Validation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
