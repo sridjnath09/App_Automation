@@ -3,7 +3,6 @@
 =============================
 
 Prerequiste to tun test suite:
-
   * java
   * use IDE eclipse
   * chrome driver
@@ -19,7 +18,9 @@ Install TestNG:
 ==============================
 
 To run test suite:
- 1. open testNG.xml and run as testNG
+ 1. Import the project https://github.com/sridjnath09/App_Automation.git
+ 2. add selenium jars to the java build path
+ 3. open testNG.xml and run as testNG
 
 ===============================
 
