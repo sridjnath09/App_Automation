@@ -1,4 +1,4 @@
-# Insatllation and run the test suite
+# Installation and run the test suite
 
 =============================
 
