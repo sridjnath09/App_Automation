@@ -1,4 +1,4 @@
-# App_Automation
+# Insatllation and run the test suite
 
 =============================
 
@@ -20,7 +20,7 @@ Install TestNG:
 To run test suite:
  1. Import the project https://github.com/sridjnath09/App_Automation.git
  2. add selenium jars to the java build path
- 3. open testNG.xml and run as testNG
+ 3. open testing.xml and run as testNG
 
 ===============================
 
