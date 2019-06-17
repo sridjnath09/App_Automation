@@ -4,9 +4,9 @@
 
 Prerequiste to tun test suite:
 
-*java
-*use IDE eclipse
-*chrome driver
+  * java
+  * use IDE eclipse
+  * chrome driver
 
 =============================
 
@@ -20,7 +20,8 @@ Install TestNG:
 
 To run test suite:
  1. open testNG.xml and run as testNG
- 
+
+===============================
 To view the test report:
  1. navigate to folder output folder in workspace 
  2. open report output
