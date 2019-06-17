@@ -24,7 +24,7 @@ To run test suite:
 ===============================
 
 To view the test report:
- 1. navigate to folder output folder in workspace 
- 2. open report output
+ 1. navigate to folder test-output folder in workspace 
+ 2. open report emailable-report.html
   
  
