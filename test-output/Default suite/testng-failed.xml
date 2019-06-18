@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation_test.TC10_Cancel_Add_Computer_Validation">
+      <class name="com.P1.TC05_Delete_Computer_Test">
         <methods>
-          <include name="afterTest"/>
-          <include name="cancelAddComputer"/>
           <include name="launchBrowser"/>
+          <include name="deleteComputer"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- automation_test.TC10_Cancel_Add_Computer_Validation -->
+      </class> <!-- com.P1.TC05_Delete_Computer_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -37,12 +37,18 @@ public class TC01_Add_Computer_Test {
 		driver.findElement(By.xpath("//*[@id=\"introduced\"]")).sendKeys(introducedDate);
 
 		Select dropdown= new Select(driver.findElement(By.id("company")));
-
 		dropdown.selectByValue("1");
 		driver.findElement(By.xpath("//*[@id=\"main\"]/form/div/input")).click();
 
 		String confirmCreation= driver.findElement(By.xpath("//*[@id=\"main\"]/div[1]")).getText();
 		Assert.assertEquals(confirmCreation.equals("Done! Computer "+computerName +" has been created"),true);
+		
+		//verify computer existed on the database
+		driver.findElement(By.id("searchbox")).clear();
+		driver.findElement(By.id("searchbox")).sendKeys(computerName);
+		driver.findElement(By.id("searchsubmit")).click();
+		String listedComputer= driver.findElement(By.xpath("//*[@id=\"main\"]/table/tbody/tr/td[1]/a")).getText();
+		Assert.assertEquals(listedComputer.equals(computerName),true);
 	}
 
 

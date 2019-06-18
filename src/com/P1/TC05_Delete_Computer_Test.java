@@ -16,8 +16,8 @@ public class TC05_Delete_Computer_Test {
 
 	File file= new File("D:\\chromedriver.exe");
 	public WebDriver driver ; 
-	public  String computerName="Deep1";
-	public  String introducedDate="2019-06-16";
+	public  String computerName="update1";
+	
 
 	@BeforeMethod
 	public void launchBrowser() {
@@ -36,6 +36,7 @@ public class TC05_Delete_Computer_Test {
 		
 		String confirmCreation= driver.findElement(By.xpath("//*[@id=\"main\"]/div[1]")).getText();
 		Assert.assertEquals(confirmCreation.equals("Done! Computer has been deleted"),true);
+		
 	}
 	
 

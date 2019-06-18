@@ -1,78 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="11" guice-stage="DEVELOPMENT" name="Failed suite [TestSuiteDemo]">
-  <test thread-count="11" name="Test1(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.P1.TC06_Search_Non_Existing_Computer_Test">
-        <methods>
-          <include name="searchNonExistComputer"/>
-          <include name="launchBrowser"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.P1.TC06_Search_Non_Existing_Computer_Test -->
-      <class name="com.P1.TC11_Verify_Next_Button_Behavior">
-        <methods>
-          <include name="afterTest"/>
-          <include name="verifyNextButton"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- com.P1.TC11_Verify_Next_Button_Behavior -->
-      <class name="com.P1.TC02_Read_Computer_Test">
-        <methods>
-          <include name="readComputer"/>
-          <include name="afterTest"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- com.P1.TC02_Read_Computer_Test -->
-      <class name="com.P1.TC04_Search_Existing_Computer_Test">
-        <methods>
-          <include name="afterTest"/>
-          <include name="launchBrowser"/>
-          <include name="searchComputer"/>
-        </methods>
-      </class> <!-- com.P1.TC04_Search_Existing_Computer_Test -->
-      <class name="com.P1.TC10_Cancel_Add_Computer_Validation">
-        <methods>
-          <include name="afterTest"/>
-          <include name="cancelAddComputer"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- com.P1.TC10_Cancel_Add_Computer_Validation -->
-      <class name="com.P1.TC01_Add_Computer_Test">
-        <methods>
-          <include name="afterTest"/>
-          <include name="launchBrowser"/>
-          <include name="addComputer"/>
-        </methods>
-      </class> <!-- com.P1.TC01_Add_Computer_Test -->
-      <class name="com.P1.TC08_Verify_Previous_Button_Disabled_LaunchPage_test">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="verifyPreviousDisabled"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.P1.TC08_Verify_Previous_Button_Disabled_LaunchPage_test -->
-      <class name="com.P1.TC09_Verify_Previous_Button_Enabled_NextPage_test">
-        <methods>
-          <include name="verifyPreviousEnabled"/>
-          <include name="launchBrowser"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.P1.TC09_Verify_Previous_Button_Enabled_NextPage_test -->
-      <class name="com.P1.TC07_Total_Header_Count_Validation_Test">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="afterTest"/>
-          <include name="countValidation"/>
-        </methods>
-      </class> <!-- com.P1.TC07_Total_Header_Count_Validation_Test -->
-      <class name="com.P1.TC03_Update_Information_Test">
-        <methods>
-          <include name="afterTest"/>
-          <include name="updateComputer"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- com.P1.TC03_Update_Information_Test -->
       <class name="com.P1.TC05_Delete_Computer_Test">
         <methods>
           <include name="launchBrowser"/>
@@ -81,5 +11,5 @@
         </methods>
       </class> <!-- com.P1.TC05_Delete_Computer_Test -->
     </classes>
-  </test> <!-- Test1(failed) -->
-</suite> <!-- Failed suite [TestSuiteDemo] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

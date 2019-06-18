@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 public class TC10_Cancel_Add_Computer_Validation {
 	File file= new File("D:\\chromedriver.exe");
 	public WebDriver driver ; 
-	public  String computerName="Deep1";
+	public  String computerName="Deep2019";
 	public  String introducedDate="2019-06-16";
 	public String baseUrl;
 
@@ -43,6 +43,13 @@ public class TC10_Cancel_Add_Computer_Validation {
 		String currentUrl= driver.getCurrentUrl();
 		
 		Assert.assertEquals(currentUrl.equals(baseUrl), true);
+		
+		driver.findElement(By.id("searchbox")).clear();
+		driver.findElement(By.id("searchbox")).sendKeys(computerName);
+		driver.findElement(By.id("searchsubmit")).click();
+		
+		String listedComputer= driver.findElement(By.xpath("//*[@id=\"main\"]/div[2]")).getText();
+		Assert.assertEquals(listedComputer.equals("Nothing to display"),true);
 		
 	}
 	

@@ -34,6 +34,8 @@ public class TC11_Verify_Next_Button_Behavior {
 		driver.findElement(By.xpath("//*[@id=\"pagination\"]/ul/li[3]/a")).click();
 		String currentUrl=driver.getCurrentUrl();
 		Assert.assertEquals(currentUrl.equals(nextPageUrl), true);
+		String pagination=driver.findElement(By.xpath("//*[@id=\"pagination\"]/ul/li[2]/a")).getText();
+		Assert.assertEquals(pagination.contains("11"), true);
 	}
 
 

@@ -37,11 +37,16 @@ public class TC03_Update_Information_Test {
 
 		Select dropdown= new Select(driver.findElement(By.id("company")));
 		dropdown.selectByValue("1");
+		
+		
 
 		driver.findElement(By.xpath("//*[@id=\"main\"]/form[1]/div/input")).click();
 
 		String confirmUpdate= driver.findElement(By.xpath("//*[@id=\"main\"]/div[1]")).getText();
 		Assert.assertEquals(confirmUpdate.equals("Done! Computer "+computerName+" has been updated"),true);
+		
+		
+		
 
 	}
 
