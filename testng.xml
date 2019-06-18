@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuiteDemo" verbose="1">
+	<test name="Test1">
+		<classes>
+			<class name="com.P1.TC01_Add_Computer_Test">
+			</class>
+			<class name="com.P1.TC02_Read_Computer_Test">
+			</class>
+			<class name="com.P1.TC03_Update_Information_Test">
+			</class>
+			<class name="com.P1.TC04_Search_Existing_Computer_Test">
+			</class>
+			<class name="com.P1.TC05_Delete_Computer_Test">
+			</class>
+			<class name="com.P1.TC06_Search_Non_Existing_Computer_Test">
+			</class>
+			<class name="com.P1.TC07_Total_Header_Count_Validation_Test">
+			</class>
+			<class name="com.P1.TC08_Verify_Previous_Button_Disabled_LaunchPage_test">
+			</class>
+			<class name="com.P1.TC09_Verify_Previous_Button_Enabled_NextPage_test">
+			</class>
+			<class name="com.P1.TC10_Cancel_Add_Computer_Validation">
+			</class>
+			<class name="com.P1.TC11_Verify_Next_Button_Behavior">
+			</class>
+		</classes>
+	</test>
+</suite>
